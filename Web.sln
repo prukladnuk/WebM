@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33328.57
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Messanger", "Messanger\Messanger.sqlproj", "{DDEF7115-DCAE-4543-91CA-C10569664AA9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDEF7115-DCAE-4543-91CA-C10569664AA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDEF7115-DCAE-4543-91CA-C10569664AA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDEF7115-DCAE-4543-91CA-C10569664AA9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DDEF7115-DCAE-4543-91CA-C10569664AA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDEF7115-DCAE-4543-91CA-C10569664AA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDEF7115-DCAE-4543-91CA-C10569664AA9}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {34F0ECEF-00F9-40B2-94A6-5E2F3FE59CE6}
+	EndGlobalSection
+EndGlobal
