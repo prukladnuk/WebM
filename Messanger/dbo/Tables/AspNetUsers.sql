@@ -14,6 +14,7 @@
     [SecurityStamp]        NVARCHAR (MAX)     NULL,
     [TwoFactorEnabled]     BIT                NOT NULL,
     [UserName]             NVARCHAR (256)     NULL,
+    [Photo] NVARCHAR(50) NULL, 
     CONSTRAINT [PK_AspNetUsers] PRIMARY KEY CLUSTERED ([Id] ASC)
 );
 
