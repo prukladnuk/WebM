@@ -6,7 +6,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WebMessangerAPI.DataAccess.Repositories.Interfaces
+namespace DataAccess.Repositories.Interfaces
 {
     public interface IRepository<TEntity> where TEntity : class
     {

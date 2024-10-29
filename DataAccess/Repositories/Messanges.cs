@@ -1,13 +1,13 @@
-﻿//using WebMessangerAPI.DataAccess.Models;
-using WebMessangerAPI.DataAccess.Repositories.Interfaces;
-using DataAccess.Models;
+﻿using DataAccess.Models;
+using DataAccess.Repositories.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WebMessangerAPI.DataAccess.Repositories
+
+namespace DataAccess.Repositories
 {
     public class MessageRepository : GenericRepository<Message>, IMessageRepository
     {

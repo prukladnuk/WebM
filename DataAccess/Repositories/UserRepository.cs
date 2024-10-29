@@ -1,6 +1,5 @@
-﻿//using WebMessangerAPI.DataAccess.Models;
-using WebMessangerAPI.DataAccess.Repositories.Interfaces;
-using DataAccess.Models;
+﻿using DataAccess.Models;
+using DataAccess.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -9,7 +8,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WebMessangerAPI.DataAccess.Repositories
+namespace DataAccess.Repositories
 {
     public class UserRepository : GenericRepository<AspNetUser>, IUserRepository
     {
